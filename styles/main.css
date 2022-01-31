@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    line-height: 161.8%;
+    scroll-behavior: smooth;
+    background: rgb(7, 29, 58);  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(120deg, #2a9688c2 0%, rgba(1, 15, 48, 0.815) 90%), url("images/pixelated.jpg");
+    background: linear-gradient(120deg, #2a9688 0%, rgba(1, 15, 48, 0.809) 90%), url("../images/pixelated.jpg"); /* The least supported option. */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background: transparent;
+}
+main {
+    padding: 20px;
+}
+
+#logo {
+    font-family: 'Norican', sans-serif;
+    font-size: 2rem;
+}
+
+.hero {
+    height: 100vh;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    transition: .4s ease;
+    color: black;
+    background: none;
+
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    background: gray;
+  }
+
+.navbar {
+    background: none;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
